@@ -15,7 +15,7 @@ export function Contact() {
       <div className="contacts">
         <div>
           <a href={Resume} download>
-            <img src={link} alt="Email" />
+            <img src={link} alt="Resume" />
           </a>
           <a href={Resume} download>
             Resume
