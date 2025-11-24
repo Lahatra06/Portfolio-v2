@@ -1,17 +1,17 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+import lahatra from "../../assets/lahatra.png";
+import java from "../../assets/java.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
+import nextIcon from "../../assets/nextjs.svg";
+import nestIcon from "../../assets/nestjs.svg";
+import phpIcon from "../../assets/php.svg";
+import mongodbIcon from "../../assets/mongodb.svg";
+import mysqlIcon from "../../assets/mysql.svg";
+import pgIcon from "../../assets/postgresql.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -23,32 +23,56 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Lahatra, Highly motivated Full-Stack Developer with
+            one year of professional experience in designing and developing
+            comprehensive web applications.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.2 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            Proficient in key technologies including HTML, CSS, JavaScript,
+            TypeScript, Node.js, and Laravel. Skilled in managing both
+            Relational (SQL) and Non-Relational (NoSQL) databases.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            I am open for discuss for anoother domains especially a remote job.
+            I bring a versatile, curious mindset, with additional exposure to
+            the Construction (BTP) and Architecture fields.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h4>Bachelor option Software Engineering</h4>
+            <p>IT University Andoharanofotsy | July 2024</p>
+            <p>Andoaharanofotsy, Antananarivo Madagascar</p>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+            <h3>Experience:</h3>
+            <br />
+            <h4>Assistant User | Quality Assurance</h4>
+            <p>BICI Madagascar | September 2025 - Present</p>
+            <p>Andoaharanofotsy, Antananarivo Madagascar</p>
+            <br />
+            <h4>Architectural Drafter</h4>
+            <p>FUTURMAP | March 2025 - June 2025</p>
+            <p>Ankorahotra, Antananarivo Madagascar</p>
+            <br />
+            <h4>Independant developer</h4>
+            <p>February 2025 - August 2025</p>
+            <p>Freelance</p>
+            <br />
+            <h4>Developer Junior</h4>
+            <p>ITRAS Group | September 2023 - June 2024</p>
+            <p>Nanisana, Antananarivo Madagascar</p>
           </div>
         </ScrollAnimation>
 
@@ -57,18 +81,13 @@ export function About() {
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={python} alt="python" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={nextIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
-              <img src={java} alt="java" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
+              <img src={nestIcon} alt="next" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -78,22 +97,22 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
+              <img src={phpIcon} alt="php" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+              <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+              <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={shopify} alt="shopify" />
+              <img src={java} alt="java" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -107,17 +126,27 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={mongodbIcon} alt="mongo" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.21 * 1000}>
+              <img src={mysqlIcon} alt="mysql" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.21 * 1000}>
+              <img src={pgIcon} alt="pgsql" />
             </ScrollAnimation>
           </div>
         </div>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={lahatra} alt="Lahatra" />
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }
